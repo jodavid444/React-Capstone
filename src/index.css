@@ -1,13 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+h3 {
+  color: rgb(219, 143, 0);
+}
+
+h5 {
+  margin: 0;
+  align-self: start;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+  margin: 10px 0 0 0;
+  padding-bottom: 10px;
+}
+
+main {
+  background-color: rgb(219, 143, 0);
+  padding: 10px;
+}
+
+.categories-title {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 10px;
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
+  border-radius: 5px;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.food-name {
+  align-self: flex-end;
+  color: rgb(219, 143, 0);
+  text-align: right;
+}
+
+.food-img {
+  width: 100px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.details-btn {
+  border: 1px solid rgb(219, 143, 0);
+  padding: 3px;
+  border-radius: 50%;
+  color: rgb(219, 143, 0);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.back-btn {
+  display: flex;
+  border: 1px solid rgb(219, 143, 0);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  text-transform: none;
+  color: rgb(219, 143, 0);
+  width: fit-content;
+  align-items: center;
+  gap: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.search-bar {
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+
+@media screen and (min-width: 750px) {
+  header {
+    justify-content: space-between;
+    margin: 0 30px;
+  }
+
+  .food-name {
+    width: 210px;
+  }
+
+  .grid {
+    grid-template-columns: auto auto auto;
+  }
+
+  .layout-container {
+    transition: 0.5s;
+  }
+
+  .layout-container:hover {
+    margin: 0 -3px;
+    box-shadow: rgba(214, 126, 10, 0.651) 0 -50px 36px -28px inset;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .grid {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .details-btn:hover {
+    color: white;
+    background-color: rgb(219, 143, 0);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid {
+    grid-template-columns: auto auto auto auto auto;
+  }
 }
