@@ -40,9 +40,8 @@ header {
 }
 
 main {
-  /* background-color: rgb(219, 143, 0); */
+  background-color: rgb(219, 143, 0);
   padding: 10px;
-  background-color: #79D70F;
 }
 
 .categories-title {
@@ -83,8 +82,7 @@ main {
 
 .food-name {
   align-self: flex-end;
-  /* color: rgb(219, 143, 0); */
-  color: #F5A31A;
+  color: rgb(219, 143, 0);
   text-align: right;
 }
 
@@ -136,21 +134,8 @@ main {
     margin: 0 30px;
   }
 
-  .food-name {
-    width: 210px;
-  }
-
   .grid {
     grid-template-columns: auto auto auto;
-  }
-
-  .layout-container {
-    transition: 0.5s;
-  }
-
-  .layout-container:hover {
-    margin: 0 -3px;
-    box-shadow: rgba(214, 126, 10, 0.651) 0 -50px 36px -28px inset;
   }
 }
 
