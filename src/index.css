@@ -6,13 +6,17 @@ body {
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 40px;
+  background-color: #79D70F;
+  padding: 7px ;
+  /* margin-top: 10px; */
 }
 
 h1 {
-  font-size: 25px;
-  margin: 0;
+  font-size: 23px;
+  text-align: center;
+  margin-right: 40px;
 }
 
 h2 {
@@ -157,10 +161,20 @@ main {
     color: white;
     background-color: #68c201;
   }
+
+  .logo {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .grid {
     grid-template-columns: auto auto auto auto auto;
   }
+
+  h1 {
+    margin-right: 90px;
+    font-size: 25px;
+  }
+
 }
