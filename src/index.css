@@ -8,8 +8,8 @@ body {
 .logo {
   width: 100px;
   height: 40px;
-  background-color: #79D70F;
-  padding: 7px ;
+  background-color: #79d70f;
+  padding: 7px;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 h2 {
   margin: 0;
   padding-bottom: 10px;
-  color: #79D70F;
+  color: #79d70f;
   border-bottom: 1px solid rgba(0, 0, 0, 0.301);
 }
 
@@ -44,7 +44,7 @@ header {
 }
 
 main {
-  background-color: #79D70F;
+  background-color: #79d70f;
   padding: 10px;
 }
 
@@ -108,22 +108,22 @@ main {
 }
 
 .details-btn {
-  border: 1px solid #79D70F;
+  border: 1px solid #79d70f;
   padding: 3px;
   border-radius: 50%;
-  color: #79D70F;
+  color: #79d70f;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .back-btn {
   display: flex;
-  border: 1px solid #79D70F;
+  border: 1px solid #79d70f;
   padding: 10px;
   border-radius: 10px;
   background-color: white;
   text-transform: none;
-  color: #79D70F;
+  color: #79d70f;
   width: fit-content;
   align-items: center;
   gap: 5px;
@@ -148,8 +148,6 @@ main {
   .grid {
     grid-template-columns: auto auto auto;
   }
-
-
 }
 
 @media screen and (min-width: 1000px) {
@@ -176,5 +174,4 @@ main {
     margin-right: 90px;
     font-size: 25px;
   }
-
 }
