@@ -45,7 +45,6 @@ header {
 
 main {
   background-color: #79d70f;
-  padding: 10px;
 }
 
 .categories-title {
@@ -92,8 +91,8 @@ main {
 
 .food-name {
   align-self: flex-end;
-  color: #6fcb06;
   text-align: right;
+  color: #79d70f;
 }
 
 .food-img {
