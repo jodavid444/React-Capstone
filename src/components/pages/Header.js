@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <img src={logo} alt="logo" className="logo" />
-      <h1>The Grub Hub Republic</h1>
+      <h1>Grub Hub Republic</h1>
       <i className="fa-solid fa-microphone" />
     </header>
   );

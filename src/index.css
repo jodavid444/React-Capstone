@@ -10,7 +10,6 @@ body {
   height: 40px;
   background-color: #79D70F;
   padding: 7px ;
-  /* margin-top: 10px; */
 }
 
 h1 {
@@ -27,8 +26,6 @@ h2 {
 }
 
 h3 {
-  /* color: rgb(219, 143, 0); */
-  /* color: #79D70F; */
   color: black;
 }
 
@@ -47,7 +44,6 @@ header {
 }
 
 main {
-  /* background-color: rgb(219, 143, 0); */
   background-color: #79D70F;
   padding: 10px;
 }
@@ -80,6 +76,12 @@ main {
   border-radius: 5px;
 }
 
+.layout-container:hover {
+  margin: 0 -3px;
+  box-shadow: rgba(214, 126, 10, 0.651) 0 -50px 36px -28px inset;
+  cursor: pointer;
+}
+
 .image-container {
   width: 100%;
   display: flex;
@@ -90,8 +92,6 @@ main {
 
 .food-name {
   align-self: flex-end;
-  /* color: rgb(219, 143, 0); */
-  /* color: #79D70F; */
   color: #6fcb06;
   text-align: right;
 }
@@ -111,7 +111,6 @@ main {
   border: 1px solid #79D70F;
   padding: 3px;
   border-radius: 50%;
-  /* color: rgb(219, 143, 0); */
   color: #79D70F;
   transition: 0.3s;
   cursor: pointer;
@@ -124,7 +123,6 @@ main {
   border-radius: 10px;
   background-color: white;
   text-transform: none;
-  /* color: rgb(219, 143, 0); */
   color: #79D70F;
   width: fit-content;
   align-items: center;
@@ -150,6 +148,8 @@ main {
   .grid {
     grid-template-columns: auto auto auto;
   }
+
+
 }
 
 @media screen and (min-width: 1000px) {
