@@ -13,5 +13,4 @@ describe('Test component', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  
 });
