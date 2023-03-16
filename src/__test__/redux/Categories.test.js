@@ -29,4 +29,3 @@ describe('categoriesReducer', () => {
     expect(store.getState().categoriesReducer).toEqual(playerArray);
   });
 });
-
