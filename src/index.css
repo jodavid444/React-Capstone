@@ -11,18 +11,21 @@ body {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 25px;
   margin: 0;
 }
 
 h2 {
   margin: 0;
   padding-bottom: 10px;
+  color: #79D70F;
   border-bottom: 1px solid rgba(0, 0, 0, 0.301);
 }
 
 h3 {
-  color: rgb(219, 143, 0);
+  /* color: rgb(219, 143, 0); */
+  /* color: #79D70F; */
+  color: black;
 }
 
 h5 {
@@ -40,7 +43,8 @@ header {
 }
 
 main {
-  background-color: rgb(219, 143, 0);
+  /* background-color: rgb(219, 143, 0); */
+  background-color: #79D70F;
   padding: 10px;
 }
 
@@ -82,7 +86,9 @@ main {
 
 .food-name {
   align-self: flex-end;
-  color: rgb(219, 143, 0);
+  /* color: rgb(219, 143, 0); */
+  /* color: #79D70F; */
+  color: #6fcb06;
   text-align: right;
 }
 
@@ -98,25 +104,28 @@ main {
 }
 
 .details-btn {
-  border: 1px solid rgb(219, 143, 0);
+  border: 1px solid #79D70F;
   padding: 3px;
   border-radius: 50%;
-  color: rgb(219, 143, 0);
+  /* color: rgb(219, 143, 0); */
+  color: #79D70F;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .back-btn {
   display: flex;
-  border: 1px solid rgb(219, 143, 0);
+  border: 1px solid #79D70F;
   padding: 10px;
   border-radius: 10px;
   background-color: white;
   text-transform: none;
-  color: rgb(219, 143, 0);
+  /* color: rgb(219, 143, 0); */
+  color: #79D70F;
   width: fit-content;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .hide {
@@ -146,7 +155,7 @@ main {
 
   .details-btn:hover {
     color: white;
-    background-color: rgb(219, 143, 0);
+    background-color: #68c201;
   }
 }
 
