@@ -134,8 +134,21 @@ main {
     margin: 0 30px;
   }
 
+  .food-name {
+    width: 210px;
+  }
+
   .grid {
     grid-template-columns: auto auto auto;
+  }
+
+  .layout-container {
+    transition: 0.5s;
+  }
+
+  .layout-container:hover {
+    margin: 0 -3px;
+    box-shadow: rgba(214, 126, 10, 0.651) 0 -50px 36px -28px inset;
   }
 }
 
@@ -146,21 +159,12 @@ main {
 
   .details-btn:hover {
     color: white;
-    background-color: #68c201;
-  }
-
-  .logo {
-    margin-top: 10px;
+    background-color: rgb(219, 143, 0);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .grid {
     grid-template-columns: auto auto auto auto auto;
-  }
-
-  h1 {
-    margin-right: 90px;
-    font-size: 25px;
   }
 }
