@@ -67,7 +67,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link]
+- [Live Demo Link](https://dev--lucky-baklava-595536.netlify.app/)
 
 
 ## 🚀 Live Presentation <a name="live-presentation"></a>
