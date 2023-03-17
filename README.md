@@ -154,6 +154,12 @@ Give a **Star** if you like this project!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+🙏 Acknowledgments
+
+I would like to thank Microverse for the project inspiration.
+I would also like to thank Nelson Sakwa for the original design idea.
+
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
