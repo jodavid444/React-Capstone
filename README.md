@@ -3,7 +3,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Grub Hub Republic</b></h3>
+  <h3><b>Chef's MastrePieces</b></h3>
 
 </div>
 
@@ -28,9 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Grub Hub Republic App  <a name="about-project"></a>
+# Chef's Masterpieces App  <a name="about-project"></a>
 
-> Grub Hub Republic - It is a web application that could provide the count of foods category. The app shows the count as per category (route) and all foods from the selected category.
+> Chef's Masterpieces - It is a web application that could provide the count of foods category. The app shows the count as per category (route) and all foods from the selected category.
 
 
 
