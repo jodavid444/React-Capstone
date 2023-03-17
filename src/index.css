@@ -39,11 +39,6 @@ header {
   padding-bottom: 10px;
 }
 
-main {
-  background-color: rgb(219, 143, 0);
-  padding: 10px;
-}
-
 .categories-title {
   margin-top: 15px;
   margin-bottom: 25px;
@@ -82,8 +77,7 @@ main {
 
 .food-name {
   align-self: flex-end;
-  color: rgb(219, 143, 0);
-  text-align: right;
+  color: #79d70f;
 }
 
 .food-img {
