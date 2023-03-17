@@ -157,6 +157,7 @@ Give a **Star** if you like this project!
 🙏 Acknowledgments
 
 I would like to thank Microverse for the project inspiration.
+
 I would also like to thank Nelson Sakwa for the original design idea.
 
 
