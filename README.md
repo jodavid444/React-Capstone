@@ -2,9 +2,6 @@
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-
-  <h3><b>Chef's MastrePieces</b></h3>
-
 </div>
 
 <a name="readme-top"></a>
@@ -28,12 +25,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Chef's Masterpieces App  <a name="about-project"></a>
-
-> Chef's Masterpieces - It is a web application that could provide the count of foods category. The app shows the count as per category (route) and all foods from the selected category.
-
-
-
+![image](./src/images/Screenshot%202023-01-11%20135723.png)
+![image](./src/images/Screenshot%202023-01-11%20135756.png)
+![image](./src/images/Screenshot%202023-01-11%20135910.png)
+![image](./src/images/Screenshot%202023-01-11%20135935.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,7 +58,11 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link]
+- [Live Demo Link](https://dev--lucky-baklava-595536.netlify.app/)
+
+
+## 🚀 Live Presentation <a name="live-presentation"></a>
+- [Live Presentation Link](https://drive.google.com/file/d/10pls6umxEnOdlY6foeqr61vXCPzPMXrr/view?usp=share_link)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,6 +152,13 @@ Feel free to check the [issues page](https://github.com/jodavid444/React-Capston
 Give a **Star** if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+🙏 Acknowledgments
+
+I would like to thank Microverse for the project inspiration.
+
+I would also like to thank Nelson Sakwa for the original design idea.
 
 
 <!-- LICENSE -->

@@ -6,27 +6,23 @@ body {
 }
 
 .logo {
-  width: 100px;
-  height: 40px;
-  background-color: #79d70f;
-  padding: 7px;
+  width: 50px;
+  height: 50px;
 }
 
 h1 {
-  font-size: 23px;
-  text-align: center;
-  margin-right: 40px;
+  font-size: 20px;
+  margin: 0;
 }
 
 h2 {
   margin: 0;
   padding-bottom: 10px;
-  color: #79d70f;
   border-bottom: 1px solid rgba(0, 0, 0, 0.301);
 }
 
 h3 {
-  color: black;
+  color: rgb(219, 143, 0);
 }
 
 h5 {
@@ -41,10 +37,6 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.308);
   margin: 10px 0 0 0;
   padding-bottom: 10px;
-}
-
-main {
-  background-color: #79d70f;
 }
 
 .categories-title {
@@ -75,12 +67,6 @@ main {
   border-radius: 5px;
 }
 
-.layout-container:hover {
-  margin: 0 -3px;
-  box-shadow: rgba(214, 126, 10, 0.651) 0 -50px 36px -28px inset;
-  cursor: pointer;
-}
-
 .image-container {
   width: 100%;
   display: flex;
@@ -91,7 +77,6 @@ main {
 
 .food-name {
   align-self: flex-end;
-  text-align: right;
   color: #79d70f;
 }
 
@@ -107,22 +92,22 @@ main {
 }
 
 .details-btn {
-  border: 1px solid #79d70f;
+  border: 1px solid rgb(219, 143, 0);
   padding: 3px;
   border-radius: 50%;
-  color: #79d70f;
+  color: rgb(219, 143, 0);
   transition: 0.3s;
   cursor: pointer;
 }
 
 .back-btn {
   display: flex;
-  border: 1px solid #79d70f;
+  border: 1px solid rgb(219, 143, 0);
   padding: 10px;
   border-radius: 10px;
   background-color: white;
   text-transform: none;
-  color: #79d70f;
+  color: rgb(219, 143, 0);
   width: fit-content;
   align-items: center;
   gap: 5px;
@@ -144,8 +129,21 @@ main {
     margin: 0 30px;
   }
 
+  .food-name {
+    width: 210px;
+  }
+
   .grid {
     grid-template-columns: auto auto auto;
+  }
+
+  .layout-container {
+    transition: 0.5s;
+  }
+
+  .layout-container:hover {
+    margin: 0 -3px;
+    box-shadow: rgba(214, 126, 10, 0.651) 0 -50px 36px -28px inset;
   }
 }
 
@@ -156,21 +154,12 @@ main {
 
   .details-btn:hover {
     color: white;
-    background-color: #68c201;
-  }
-
-  .logo {
-    margin-top: 10px;
+    background-color: rgb(219, 143, 0);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .grid {
     grid-template-columns: auto auto auto auto auto;
-  }
-
-  h1 {
-    margin-right: 90px;
-    font-size: 25px;
   }
 }
