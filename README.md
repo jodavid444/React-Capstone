@@ -2,9 +2,6 @@
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-
-  <h3><b>Chief's Masterpieces</b></h3>
-
 </div>
 
 <a name="readme-top"></a>
@@ -27,12 +24,6 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-
-#  App  <a name="about-project"></a>
-
-> Chef's Masterpieces - It is a web application that could provide the count of foods category. The app shows the count as per category (route) and all foods from the selected category.
-
-## 👁‍🗨 Preview
 
 ![image](./src/images/Screenshot%202023-01-11%20135723.png)
 ![image](./src/images/Screenshot%202023-01-11%20135756.png)
