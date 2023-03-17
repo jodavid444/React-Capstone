@@ -71,7 +71,7 @@
 
 
 ## 🚀 Live Presentation <a name="live-presentation"></a>
-- [Live Presentation Link]
+- [Live Presentation Link](https://drive.google.com/file/d/10pls6umxEnOdlY6foeqr61vXCPzPMXrr/view?usp=share_link)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
