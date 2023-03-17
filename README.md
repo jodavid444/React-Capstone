@@ -32,7 +32,12 @@
 
 > Chef's Masterpieces - It is a web application that could provide the count of foods category. The app shows the count as per category (route) and all foods from the selected category.
 
+## 👁‍🗨 Preview
 
+![image](./src/images/Screenshot%202023-01-11%20135723.png)
+![image](./src/images/Screenshot%202023-01-11%20135756.png)
+![image](./src/images/Screenshot%202023-01-11%20135910.png)
+![image](./src/images/Screenshot%202023-01-11%20135935.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,6 +68,10 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 - [Live Demo Link]
+
+
+## 🚀 Live Presentation <a name="live-presentation"></a>
+- [Live Presentation Link]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
