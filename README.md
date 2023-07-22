@@ -19,23 +19,20 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Usage](#usage)
-  - [Deployment](#triangular_flag_on_post-deployment)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # Chef's Masterpieces App  <a name="about-project"></a>
 
-> Chef's Masterpieces - It is a web application that could provide the count of foods category. The app shows the count as per category (route) and all foods from the selected category.
-
-
-
+> Chef's Masterpieces -  A web application that displays different food categories and allows users to browse through the selections, exploring different meals.
 
 ## 🛠 Built With <a name="built-with"></a>
+- React
+- Redux
+- CSS3
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -49,53 +46,37 @@
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-- **You can see categories in this website and filter it by name in search bar**
-- **You can see how much categories and food website have**
+- **You can see categories on this website and filter them by name in the search bar**
+- **You can see how many categories and food websites have**
 - **You can see foods from the category you have selected**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link]
-
+- [Live Demo Link](https://dev--lucky-baklava-595536.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
+- Clone the repository to your desired folder
 
-## Clone Git Repository <a name="setup"></a>
-
--Reach to following Github URL:
-
+```sh
+git clone https://github.com/jodavid444/React-Capstone
 ```
-https://github.com/jodavid444/React-Capstone
-
+```sh
+cd React-Capstone
 ```
-
--Copy the URL.
-
--In Visual Studio Code "Terminal" change the current working directory to the location where you want the cloned directory.
-
--Type git clone in the terminal, paste the URL you copied earlier, and press "enter" to create your local clone.
-
+```sh
+npm install 
+install dependencies
 ```
-$ git clone https://github.com/jodavid444/React-Capstone
-```
-
-
 ## Usage <a name="usage"></a>
 
 ```
 npm start
+start the server
 ```
 
 ## Run tests <a name="run-tests"></a>
@@ -105,21 +86,17 @@ To run tests, run the following command:
 ```sh
   npm run test
 ```
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Joseph David**
 
-- GitHub: [@jodavid444](https://github.com/jodavid444)
+- [@jodavid444](https://github.com/jodavid444)
 
-- Twitter: [@jodavid444dave](https://twitter.com/jodavid444dave)
+- [@jodavid444dave](https://twitter.com/jodavid444dave)
 
-- LinkedIn: [LinkedIn](https://linkedin.com/in/joseph-david-01a8a5243)
+- [LinkedIn](https://linkedin.com/in/joseph-david-01a8a5243)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -128,14 +105,10 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Deploying website]**
-
+- **Add more food categories**
+- **Modify user experience (UI)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -143,10 +116,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/jodavid444/React-Capstone/issues).
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -154,8 +124,6 @@ Give a **Star** if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
